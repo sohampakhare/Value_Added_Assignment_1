@@ -1,0 +1,165 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #11111d;
+}
+
+/* Navigation Bar */
+.navbar {
+    height: 95px;
+    padding: 0 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+}
+
+
+/* Get Started Button */
+.get-started {
+    background: #6030c5;
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 13px;
+    font-size: 17px;
+}
+
+/* main Section */
+.main {
+    padding: 20px ;
+    background-color: white;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* main Text */
+.main-text {
+    width: 60%;
+}
+
+
+.main-text h1 {
+    font-size: 50px;
+    line-height: 1.15;
+    font-weight: bold;
+}
+
+.main-text h1 span {
+    color: #6030c5;
+}
+
+.main-text p {
+    margin-top: 25px;
+    color: #555b70;
+    font-size: 23px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+/* main Buttons */
+.main-buttons {
+    display: flex;
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.btn1{
+    display: inline-block;
+    background: #6030c5;
+    color: white;
+    text-decoration: none;
+    padding: 19px 30px;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn2 {
+    display: inline-block;
+    background: white;
+    color: #49219f;
+    text-decoration: none;
+    padding: 19px 30px;
+    border: 2px solid #a78bd7;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* main Image */
+.main-image {
+    width: 50%;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+   
+}
+
+/* Features Section */
+.features {
+    background: #f7f5ff;
+    padding: 50px;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+/* Individual Feature Cards */
+.feature-card {
+    background: white;
+    width: 33.33%;
+    min-height: 210px;
+    border: 1px solid #e5e1ef;
+    border-radius: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+
+.feature-card img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
